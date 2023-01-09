@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{C9821863-EAA0-40D2-A373-D95AF9604469}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelBookingProject/Service/Login/LoginService.cs">
+    <Files>
+      <File FileName="HotelBookingProject/Program.cs" Line="35" Column="1" />
+      <File FileName="HotelBookingProject/Properties/launchSettings.json" />
+      <File FileName="HotelBookingProject/Model/Login.cs" Line="10" Column="11" />
+      <File FileName="HotelBookingProject/Model/Location.cs" />
+      <File FileName="HotelBookingProject/Model/HotelBookingDBContext.cs" Line="12" Column="1" />
+      <File FileName="HotelBookingProject/Migrations/20230106111412_hotelBooking-v1.cs" />
+      <File FileName="HotelBookingProject/Service/RegisterService.cs" Line="6" Column="1" />
+      <File FileName="HotelBookingProject/Migrations/20230108120024_hotelBooking-v2.cs" />
+      <File FileName="HotelBookingProject/Service/IRegister.cs" Line="2" Column="1" />
+      <File FileName="HotelBookingProject/Model/User.cs" Line="13" Column="21" />
+      <File FileName="HotelBookingProject/Controllers/LoginController.cs" Line="22" Column="18" />
+      <File FileName="HotelBookingProject/Controllers/RegisterController.cs" Line="15" Column="5" />
+      <File FileName="HotelBookingProject/Service/Login/ILogin.cs" Line="8" Column="29" />
+      <File FileName="HotelBookingProject/Service/Login/LoginService.cs" Line="17" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HotelBookingProject" expanded="True">
+            <Node name="HotelBookingProject" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="Login" expanded="True">
+                  <Node name="LoginService.cs" selected="True" />
+                </Node>
+                <Node name="Register" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HotelBookingProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
