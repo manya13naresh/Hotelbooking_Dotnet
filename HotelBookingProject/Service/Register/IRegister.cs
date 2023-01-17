@@ -5,7 +5,7 @@ namespace HotelBookingProject.Service
 {
 	public interface IRegister
 	{
-		public string Register(User user);
+		public string  Register(User user);
 	}
 }
 

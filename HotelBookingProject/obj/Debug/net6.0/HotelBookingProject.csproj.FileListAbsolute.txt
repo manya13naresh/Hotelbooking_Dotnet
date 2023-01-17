@@ -89,3 +89,11 @@
 /Users/manya/Projects/HotelBookingProject/HotelBookingProject/obj/Debug/net6.0/HotelBookingProject.genruntimeconfig.cache
 /Users/manya/Projects/HotelBookingProject/HotelBookingProject/obj/Debug/net6.0/ref/HotelBookingProject.dll
 /Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/BCrypt.Net-Next.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/Version.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/AutoMapper.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/Scrutor.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/Swashbuckle.AspNetCore.Annotations.dll
+/Users/manya/Projects/HotelBookingProject/HotelBookingProject/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.dll

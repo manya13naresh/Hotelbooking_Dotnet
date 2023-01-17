@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HotelBooking.Model
 {
-    public class Login
+    public class LoginDTO
     {
         [Required]
         public string Email { get; set; } = null!;

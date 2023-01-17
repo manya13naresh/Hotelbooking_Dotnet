@@ -22,6 +22,10 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="version" Version="3.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,9 +41,14 @@
     <None Remove="Service\" />
     <None Remove="Service\Register\" />
     <None Remove="Service\Login\" />
-    <None Remove="Controllers\AdminController\" />
-    <None Remove="Controllers\UserController\" />
     <None Remove="version" />
+    <None Remove="Service\Admin\" />
+    <None Remove="AutoMapper" />
+    <None Remove="Profile\" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Error Handling\" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Swashbuckle.AspNetCore.Filters" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
@@ -47,7 +56,8 @@
     <Folder Include="Service\" />
     <Folder Include="Service\Register\" />
     <Folder Include="Service\Login\" />
-    <Folder Include="Controllers\AdminController\" />
-    <Folder Include="Controllers\UserController\" />
+    <Folder Include="Service\Admin\" />
+    <Folder Include="Profile\" />
+    <Folder Include="Error Handling\" />
   </ItemGroup>
 </Project>

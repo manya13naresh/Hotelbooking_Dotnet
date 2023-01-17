@@ -5,7 +5,7 @@ namespace HotelBookingProject.Service
 {
 	public interface ILogin
 	{
-        public string Login(Login login);
+        public string Login(LoginDTO login);
     }
 }
 

@@ -17,7 +17,7 @@ namespace HotelBookingProject.Controllers
 			
 		}
 		[HttpPost]
-        public string Login([FromBody] Login login)
+        public string Login([FromBody] LoginDTO login)
 		{
 			return _login.Login(login);
 		}

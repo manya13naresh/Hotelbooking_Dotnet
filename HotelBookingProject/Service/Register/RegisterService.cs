@@ -25,7 +25,7 @@ namespace HotelBookingProject.Service
             var checkUser = _context.Users.FirstOrDefault(x => x.Email == user.Email);
             if (checkUser == null)
             {
-                Console.WriteLine("1111" + checkUser);
+                
                 user.Password = bcrypt.HashPassword(user.Password, 12);
                 _context.Users.Add(user);
                 _context.SaveChanges();
@@ -33,7 +33,7 @@ namespace HotelBookingProject.Service
             }
             else
             {
-                Console.WriteLine("1111"+checkUser);
+                
                 return ("User already exsits");
             }
         }

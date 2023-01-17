@@ -22,14 +22,11 @@ namespace HotelBookingProject.Service
             _configuration = configuration;
 		
 		}
-		[HttpPost]
-        public string Login([FromBody] Login user)
+
+        public string Login([FromBody] LoginDTO user)
         {
-            Console.WriteLine(user.Email);
             
             var checkUser =  _context.Users.FirstOrDefault(x => x.Email == user.Email);
-            Console.WriteLine();
-            Console.WriteLine(checkUser);
             if(checkUser!= null)
             {
                 if (bcrypt.Verify(user.Password, checkUser.Password))

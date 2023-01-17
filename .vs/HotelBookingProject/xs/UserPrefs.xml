@@ -1,20 +1,13 @@
 ﻿<Properties StartupConfiguration="{C9821863-EAA0-40D2-A373-D95AF9604469}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HotelBookingProject/Service/Login/LoginService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelBookingProject/Service/Admin/AdminService.cs">
     <Files>
-      <File FileName="HotelBookingProject/Program.cs" Line="35" Column="1" />
-      <File FileName="HotelBookingProject/Properties/launchSettings.json" />
-      <File FileName="HotelBookingProject/Model/Login.cs" Line="10" Column="11" />
-      <File FileName="HotelBookingProject/Model/Location.cs" />
-      <File FileName="HotelBookingProject/Model/HotelBookingDBContext.cs" Line="12" Column="1" />
-      <File FileName="HotelBookingProject/Migrations/20230106111412_hotelBooking-v1.cs" />
-      <File FileName="HotelBookingProject/Service/RegisterService.cs" Line="6" Column="1" />
-      <File FileName="HotelBookingProject/Migrations/20230108120024_hotelBooking-v2.cs" />
-      <File FileName="HotelBookingProject/Service/IRegister.cs" Line="2" Column="1" />
-      <File FileName="HotelBookingProject/Model/User.cs" Line="13" Column="21" />
-      <File FileName="HotelBookingProject/Controllers/LoginController.cs" Line="22" Column="18" />
-      <File FileName="HotelBookingProject/Controllers/RegisterController.cs" Line="15" Column="5" />
-      <File FileName="HotelBookingProject/Service/Login/ILogin.cs" Line="8" Column="29" />
-      <File FileName="HotelBookingProject/Service/Login/LoginService.cs" Line="17" Column="56" />
+      <File FileName="HotelBookingProject/Program.cs" Line="18" Column="46" />
+      <File FileName="HotelBookingProject/Profile/UserProfile.cs" Line="13" Column="36" />
+      <File FileName="HotelBookingProject/Service/Admin/AdminService.cs" Line="37" Column="19" />
+      <File FileName="HotelBookingProject/Model/UserDTO.cs" Line="8" Column="23" />
+      <File FileName="HotelBookingProject/Controllers/AdminController.cs" Line="25" Column="31" />
+      <File FileName="HotelBookingProject/Service/Admin/IAdmin.cs" Line="10" Column="24" />
+      <File FileName="HotelBookingProject/Model/User.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,15 +18,18 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="Error Handling" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Model" expanded="True" />
+              <Node name="Profile" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Service" expanded="True">
-                <Node name="Login" expanded="True">
-                  <Node name="LoginService.cs" selected="True" />
+                <Node name="Admin" expanded="True">
+                  <Node name="AdminService.cs" selected="True" />
                 </Node>
+                <Node name="Login" expanded="True" />
                 <Node name="Register" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
